@@ -1,0 +1,103 @@
+/*Inicio CSS*/
+
+* {
+    box-sizing: border-box;
+    Margin:0;
+    padding:0;
+}
+/*body*/
+
+body{
+    background-image: href="../img/cabagnas/74337372_2564641006917699_4822934886824280064_n.jpg" ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*-----------------------------Header-------------------------*/
+
+/*NavBar*/
+.nav__ul-container {
+padding: 1em;
+display:flex;
+justify-content: space-between;
+background-color: rgba(86, 138, 189, 0.609);
+}
+
+.nav__ul {
+    text-align: left;
+    list-style:none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+.nav__ul-li {
+
+    color:black;
+    font-size: 11px;
+    text-align: left;
+    background-color: rgba(222, 184, 135, 0.58);
+    background-position: center;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 3.5px;
+}
+
+ul a:visited {
+color: black;
+}
+
+ul a:hover {
+color:chocolate;
+}
+
+ul a:active {
+color: lightgreen;
+}
+
+/*Logo*/
+.nav__logo-container {
+    height: 70px;
+    align-items: center;
+}
+
+
+/*----------------------------------Fin del Header-----------------*/
+
+/*------------------------Main--------------------------*/
+
+/*Titulo Principal*/
+
+.titulobienvenida   {
+    /*Estilo de Fuente*/
+    font-style: italic;
+    /*Color*/
+    color: rgb(0, 0, 0);
+    /*Tamaño*/
+    font-size: 50px;
+    /*Alineacion*/
+    text-align:center;
+    /*Fondo*/
+    background-color: burlywood;
+}
+/*------------Titulo Secundario------*/
+.titulodeatraccion  {
+    /*Estilo de Fuente*/
+    font-style: italic;
+    /*color*/
+    color: black;
+    /*tamaño*/
+    font-size: 25px;
+    /*alineacion*/
+    text-align: center;
+    /*fondo*/
+    background-color: burlywood;
+}
+img {
+    border-style: none;
+    max-width: 100%;
+}
